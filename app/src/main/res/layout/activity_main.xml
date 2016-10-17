@@ -25,7 +25,8 @@
             android:background="@drawable/rounded_corners"
             android:backgroundTint="#2ca5f5"
             android:layout_marginBottom="3dp"
-            android:layout_marginTop="3dp">
+            android:layout_marginTop="3dp"
+            android:id="@+id/weightBtn">
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -34,17 +35,6 @@
                 android:id="@+id/imageView"
                 android:layout_centerVertical="true"
                 android:layout_alignParentStart="true" />
-
-            <TextView
-                android:text="30%"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView2"
-                android:textColor="@android:color/background_light"
-                android:textSize="40dp"
-                android:paddingRight="5dp"
-                android:layout_alignTop="@+id/textView5"
-                android:layout_alignParentEnd="true" />
 
             <TextView
                 android:text="Weight Lifting"
@@ -84,6 +74,17 @@
                 android:text="10 sets"
                 android:layout_alignParentEnd="true" />
 
+            <TextView
+                android:text="30%"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:textColor="@android:color/background_light"
+                android:textSize="40dp"
+                android:paddingRight="5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true" />
+
         </RelativeLayout>
 
         <RelativeLayout
@@ -93,7 +94,8 @@
             android:background="@drawable/rounded_corners"
             android:backgroundTint="#916bcd"
             android:layout_marginBottom="3dp"
-            android:layout_marginTop="3dp">
+            android:layout_marginTop="3dp"
+            android:id="@+id/yogaBtn">
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -102,17 +104,6 @@
                 android:layout_centerVertical="true"
                 android:layout_centerHorizontal="true"
                 android:id="@+id/imageView2" />
-
-            <TextView
-                android:text="15%"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView3"
-                android:textColor="@android:color/background_light"
-                android:textSize="40dp"
-                android:paddingRight="5dp"
-                android:layout_alignParentBottom="true"
-                android:layout_alignParentEnd="true" />
 
             <TextView
                 android:text="Yoga"
@@ -153,6 +144,17 @@
                 android:layout_alignParentEnd="true"
                 android:text="1 hour" />
 
+            <TextView
+                android:text="15%"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:textColor="@android:color/background_light"
+                android:textSize="40dp"
+                android:paddingRight="5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true" />
+
         </RelativeLayout>
 
         <RelativeLayout
@@ -162,7 +164,8 @@
             android:background="@drawable/rounded_corners"
             android:layout_marginTop="3dp"
             android:backgroundTint="#52ad56"
-            android:layout_marginBottom="3dp">
+            android:layout_marginBottom="3dp"
+            android:id="@+id/cardioBtn">
 
             <ImageView
                 android:layout_width="wrap_content"
